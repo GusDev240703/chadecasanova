@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f3e8c5" />
+  <title>Lista de Presentes</title>
+
+  <!-- Fonte Merriweather com pesos variáveis -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="produtos.css" />
+</head>
+
+<body>
+  <h1>Lista de Presentes</h1>
+  <p id="boasVindas"></p>
+
+  <div class="filtro-container">
+    <div class="filtro-wrapper">
+      <input type="text" id="filtroProduto" placeholder="Buscar presente..." />
+      <button id="limparFiltro" aria-label="Limpar busca">×</button>
+    </div>
+
+    <p id="mensagemPix">
+      Não sabe com o que presentear? Colabore com um valor via
+      <a href="#pix-card">Pix</a> para ajudar os noivos nessa nova jornada!
+    </p>
+
+    <div id="produtos">
+      <div class="loading">
+        <div class="spinner"></div>
+        <p>Carregando presentes...</p>
+      </div>
+    </div>
+
+    <script src="./produtos.js" type="module"></script>
+</body>
+
+</html>

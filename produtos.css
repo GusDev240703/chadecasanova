@@ -8,7 +8,7 @@
 
   body {
     font-family: 'Segoe UI', sans-serif;
-    background: #f3e8c5 url("../img/8A00008A0000.jpeg") fixed center/cover;
+    background: #f3e8c5 url("./img/8A00008A0000.jpeg") fixed center/cover;
     margin: 0;
     padding: 20px 15px;
     text-align: center;
@@ -199,4 +199,5 @@
 
   @media (max-width: 480px) {
     #produtos { grid-template-columns: 1fr 1fr; }
+
   }

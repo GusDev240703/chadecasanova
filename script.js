@@ -14,5 +14,5 @@ function salvarNome() {
   }
   localStorage.setItem("nomeConvidado", nome);
   // Redireciona para a página da lista de presentes
-  window.location.href = "produtos.html"; 
+  window.location.href = "./produtos.html"; 
 }

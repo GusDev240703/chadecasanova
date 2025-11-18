@@ -1,18 +1,18 @@
 // Remove o splash após as animações (cerca de 12 segundos no total)
 setTimeout(() => {
-  const splash = document.getElementById('splash-screen');
-  splash.style.opacity = '0';
+  const splash = document.getElementById("splash-screen");
+  splash.style.opacity = "0";
   setTimeout(() => splash.remove(), 1500);
 }, 12500);
 
 // Função do botão Continuar
 function salvarNome() {
-  const nome = document.getElementById('nomeConvidado').value.trim();
-  if (nome === '') {
-    alert('Por favor, digite seu nome Heart');
+  const nome = document.getElementById("nomeConvidado").value.trim();
+  if (nome === "") {
+    alert("Por favor, digite seu nome Heart");
     return;
   }
-  localStorage.setItem('nomeConvidado', nome);
+  localStorage.setItem("nomeConvidado", nome);
   // Redireciona para a página da lista de presentes
-  window.location.href = 'lista-presentes.html'; // ou o nome do seu arquivo
+  window.location.href = "lista-presentes.html"; // ou o nome do seu arquivo
 }

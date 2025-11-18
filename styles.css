@@ -17,7 +17,7 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background: #f3e8c5 url("../img/8A00008A0000.jpeg") fixed center/cover;
+  background: #f3e8c5 url("./img/8A00008A0000.jpeg") fixed center/cover;
   line-height: 1.7;
   color: #333;
   overflow-x: hidden;

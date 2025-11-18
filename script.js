@@ -5,7 +5,6 @@ setTimeout(() => {
   setTimeout(() => splash.remove(), 1500);
 }, 12500);
 
-// Função do botão Continuar
 function salvarNome() {
   const nome = document.getElementById("nomeConvidado").value.trim();
   if (nome === "") {
@@ -13,6 +12,7 @@ function salvarNome() {
     return;
   }
   localStorage.setItem("nomeConvidado", nome);
-  // Redireciona para a página da lista de presentes
-  window.location.href = "./produtos.html"; 
+
+  // Redirecionamento corrigido
+  window.location.href = "./produtos.html";
 }
